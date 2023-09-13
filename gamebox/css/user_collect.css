@@ -1,0 +1,13 @@
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+.card-body p {
+  padding: 0;
+}
+.card-body h4 {
+  padding-bottom: 2rem;
+}
+.card_end {
+  margin-top: auto;
+}

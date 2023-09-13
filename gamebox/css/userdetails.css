@@ -1,0 +1,55 @@
+.userdetails_main {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+}
+.details h4 {
+  flex: 50%;
+  padding: 2rem 0;
+}
+.Revise_btn {
+  border: none;
+  background-color: black;
+}
+.Revise_btn a {
+  justify-content: center;
+  display: flex;
+  border: 1px white solid;
+  padding: 0.5rem 0;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  transition: all 0.25s ease-in;
+}
+.Revise_btn a:hover {
+  background-color: white;
+  color: black;
+}
+.out_btn {
+  border: none;
+  background-color: black;
+  max-width: 200px;
+}
+.out_btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px white solid;
+  padding: 0.5rem 0;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  transition: all 0.25s ease-in;
+  text-decoration: none;
+  margin: 1rem 0;
+}
+.out_btn p {
+  padding: 0;
+  margin: 0;
+}

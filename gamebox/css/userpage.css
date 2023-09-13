@@ -1,0 +1,206 @@
+.userpage_main {
+  /* border: 1px white solid; */
+  /* height: 80vh; */
+  display: flex;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+}
+p,
+h5 {
+  margin: 0;
+}
+.card_a {
+  /* flex: 30%; */
+  padding: 0 0px;
+}
+.div_card {
+  margin: 0 10px 10px 10px;
+  flex: 30%;
+  text-align: center;
+  border: 0.1px gray solid;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  transition: all 0.2s ease;
+}
+.div_card:hover {
+  box-shadow: 1.5px 1.5px 1px 1px grey;
+  transform: scale(1.02);
+}
+
+.card_color {
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+  padding: 0 0 0 0;
+  background-color: rgb(117, 117, 117);
+  height: 60px;
+}
+.div_card i {
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: black;
+  font-size: 1.8rem;
+  position: absolute;
+  transform: translate(-50%, 20%);
+}
+.div_card h5 {
+  padding: 2rem 0;
+}
+
+/* --------------------------------------------------------- */
+/* order_details */
+.order_div {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.order_div img {
+  width: 50%;
+  padding: 10px 0;
+  flex: 25%;
+  justify-content: center;
+}
+.order_div p {
+  font-size: 1.5rem;
+  padding-right: 10px;
+}
+.pro_name {
+  flex: 25%;
+}
+.unpri {
+  flex: 25%;
+}
+.qua {
+  flex: 25%;
+}
+
+.orderSum {
+  display: flex;
+  justify-content: end;
+  padding-right: 2rem;
+}
+.back_1p {
+  width: 0;
+  border: 0;
+  margin: 1rem 0;
+}
+
+.back_1p a {
+  background-color: black;
+  width: 150px;
+  border: white 1px solid;
+  border-radius: 5px;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+.back_1p a:hover {
+  transform: scale(1.1);
+}
+
+/* .iconscale:hover {
+  transition: all 0.25s ease-in;
+  transform: scale(1.02);
+} */
+/* 商品清單的table */
+table {
+  font-size: 1.5rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+label {
+  padding: 5px 5px;
+  color: rgb(190, 190, 190);
+}
+.input_pro {
+  background-color: rgb(104, 104, 104);
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+}
+.input_pro:focus,
+.pro_content:focus {
+  outline: rgb(8, 123, 255) 5px solid;
+}
+.pro_img {
+  max-width: 500px;
+}
+.out_btn {
+  border: none;
+  background-color: black;
+  max-width: 200px;
+}
+.out_btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px white solid;
+  padding: 0.5rem 0;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  transition: all 0.25s ease-in;
+  text-decoration: none;
+  margin: 1rem 0;
+}
+.out_btn p {
+  padding: 0;
+  margin: 0;
+}
+.fa-regular {
+  padding: 0 0.25rem;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* 橫條顏色 */
+.ut1 {
+  background-color: #6ea8fe !important;
+}
+.ut2 {
+  background-color: #a370f7 !important;
+}
+.ut3 {
+  background-color: #efadce !important;
+}
+.ut4 {
+  background-color: #ea868f !important;
+}
+.ut5 {
+  background-color: #feb272 !important;
+}
+.ut6 {
+  background-color: #ffe69c !important;
+}
+.ut7 {
+  background-color: #a3cfbb !important;
+}
+.ut8 {
+  background-color: #6edff6 !important;
+}
+
+/* 商品簡介 */
+.pro_content {
+  background-color: rgb(104, 104, 104);
+  border-radius: 5px;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+}

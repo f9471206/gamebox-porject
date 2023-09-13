@@ -1,0 +1,59 @@
+.title {
+  display: flex;
+  justify-content: space-around;
+}
+td {
+  text-align: center;
+}
+.order_img {
+  max-width: 180px;
+  width: 100%;
+  object-fit: cover;
+}
+.end {
+  display: flex;
+  justify-content: end;
+}
+
+.order_display_none {
+  display: none;
+}
+
+.butt_display {
+  border: none;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin: 8px;
+}
+
+select {
+  background-color: black;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.evaluate {
+  width: 150px;
+  font-size: 1.25rem;
+}
+.evaluate i {
+  height: 100%;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes rotateoff {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
