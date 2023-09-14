@@ -15,6 +15,7 @@
 
 
 
+
 點選右上角頭像進入登入頁面，輸入後台帳號密碼即可進入後台
 ![dj;flgjsdlfkgj](https://github.com/f9471206/gamebox-porject/assets/143894971/41d5ac39-2e26-4e73-b28f-b49effd2d649)
 
