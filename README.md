@@ -1,3 +1,5 @@
+作品簡介：電商網頁展示商品、商品購物車、後台管理功能
+
 使用HTML、CSS、JavaScript、PHP、MySQL
 
 連結: http://digital112-1-11.42web.io/
