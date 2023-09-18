@@ -2,7 +2,7 @@
 
 使用HTML、CSS、JavaScript、PHP、MySQL
 
-連結: <a href="http://digital112-1-11.42web.io/" target="_blank">前往連結</a>
+連結: <a href="http://digital112-1-11.42web.io/" target="_blank" rel="noreferrer noopenner">前往連結</a>
 
 前台功能：
 展示最新上架的商品、商品銷售排行、商品折扣、搜尋商品、商品評分、商品購物車
